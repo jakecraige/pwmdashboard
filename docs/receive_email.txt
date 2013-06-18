@@ -1,0 +1,29 @@
+checkProblem
+	If problem is price change event
+		check if we should create a CNS(backcheck)
+		if not, then add it to queue to do a foward check leter
+
+	////////////////////
+	If Problem Already Exists
+	////////////////////
+		checkProblemExists == TRUE
+			updateProblem
+			If (Price Change Event)
+				checkPriceChange == 0
+					//Means it was successful so we should close this. 
+					closeProblem
+				}
+			} //end is price change event
+			If (this->Problem Status == Any of the Manual Resolution types)
+				Change status to Unresolved
+			}
+		} //end checkProblemExists
+
+	/////////////
+	Else Create Problem
+	///////////////
+		checkRuleset == TRUE
+			createProbelm
+
+		else check if it's an IVP
+			then createProblem

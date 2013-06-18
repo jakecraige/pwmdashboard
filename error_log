@@ -1,0 +1,2 @@
+[03-Apr-2013 15:19:50] PHP Parse error:  syntax error, unexpected T_BOOLEAN_AND, expecting ',' or ')' in /home/janicesn/public_html/jakecraige.com/projects/pwm-bootstrap/includes/footer.php on line 8
+[05-Apr-2013 10:28:41] PHP Parse error:  syntax error, unexpected T_IF in /home/janicesn/public_html/jakecraige.com/projects/pwm-bootstrap/includes/licensing/edit_license.php on line 4

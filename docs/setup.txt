@@ -1,0 +1,8 @@
+1. php.ini must load IMAP Extension
+2. Disable errors in php
+2. Create Database and User for that on your server.
+3. Configure includes/setup.php with the appropriate settings. 
+4. Import the amcs_db_setup.sql to your database.
+
+
+System Tested on Apache 2.2.23 and PHP 5.2.17

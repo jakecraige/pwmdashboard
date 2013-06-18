@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------
+2 April 2013
+1. CNS checking vs grade changed
+-------------------------------------------------------------------------------------------------
+Minor:
+	-Most post/someGet data is vulnerable to MySql injection
+	-Error checking when entering a status or resolution and emails on rules	
+	-Regular expressions on sites.php for active and pos type(2 places in code)
+	-Save changes on rules does not maintain same page
+	-Change page title according to page
+
+------------------------------------------------------------------------------	
+Future Implementation
+------------------------
+	-systeminfo.php page
+		-version info
+	-CSS for mobile viewing
+	-add site does not support adding more than one sign until you edit it.

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+  }
+  /* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
+#footer {
+	background-color: #000;
+}	
+#push, #footer {
+	height: 60px;
+}
+.container .credit {
+    margin: 20px 0;
+}
+.content { padding-top: 40px; }
+.alert { margin-top: 10px; }
+.force_close { margin-top: 15px; }
+button {border: 1px #AAA solid; padding: 4px 10px;}
+/***************************
+AMCS Tables
+******************************/
+table { margin-top: 10px; }
+
+table.collection {width:100%;border-collapse:collapse;}
+table.collection tr {background-color:#fff; /*border-bottom: 1px #99b solid;*/}
+table.collection th {background-color:#fff; border-bottom: 1px #99b solid; text-align: center;}
+
+table.collection tr:hover {background-color:#e5ecf9}
+table.collection th {display:table-cell;border-bottom: 1px #99b solid; padding:0px 5px;}
+table.collection td {display:table-cell; padding:0px 5px; text-align: center;}
+table.collection td.left { text-align: left; padding: 0 10px;}
+table.collection td a {text-decoration:none; display:block; padding:0px; height:100%; color: black;}
+
+aside.search { display: table; margin: 0 auto; }
+h3 { margin-top: 10px; }
+table.detail_top { width:60%;}
+table.detail_actions th { text-align: left; }
+
+table.sites { width: 90%; margin: 1% 5%; /*border-bottom: 1px #99b solid;*/ }
+table.sites tr { border: none;}
+table.sites tr:last-child { /*border-bottom: 1px #99b solid;*/ }
+table.sites td { padding: 2px 5px; text-align: left;}
+/*table.sites { border-bottom: 1px #99b solid; }*/
+table.sites textarea { height: 32px; width: 175px;}
+table.sites_edit { width: 100%; margin: 0;}
+
+input.wideTextBox { width: 300px; }
+table.statusAmcs { width: 50%; margin: 1% 25%; }
+table.noBorder tr { border: none;}
+
+table.detail_status { margin-top: 25px; width: 100%; }
+table.detail_status th {border-bottom: 1px #99b solid; text-align: left; }
+table.th_bottom_border th { border-bottom: 1px #99b solid; }
+
+table.history { width: 40%; }
+
+td.status_1 { width: 20%; }
+td.status_2 { width: 15%; }
+td.status_3 { width: 65%; }
+td.actions { width: 12%; }
+a { text-decoration: none; }
+
+/* DrawAMCS Table Widths. */
+table td.amcs_1 { width: 8%; }
+table td.amcs_2 { width: 13%; }
+table td.amcs_3 { width: 15%; }
+table td.amcs_4 { width: 20%; }
+table td.amcs_5 { width: 20%; }
+table td.amcs_6 { width: 14%; }
+table td.amcs_7 { width: 8%; }
+
+/* Draw Sites Page Widths. */
+table td.sites_1 { width: 15%; }
+table td.sites_2 { width: 15%; }
+table td.sites_3 { width: 15%; }
+table td.sites_4 { width: 20%; }
+table td.sites_5 { width: 15%; }
+table td.sites_6 { width: 15%; }
+
+table.newsite {
+	margin-top: 0;
+}
+table.newsite th {
+	text-align: left;
+}
+table.newsite tr th {
+	padding-right: 10px;
+}
+
+table.related_events tr:hover {
+	background-color: white;
+}
+table.noHover tr:hover {
+	background-color: white;
+}
+
+table.noThBorder th {
+	border: none;
+}
